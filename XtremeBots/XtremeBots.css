@@ -1,0 +1,141 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    
+}
+
+#Container
+{
+    
+    width: 100%;
+    height: 100%;
+    background: url(cityphotoshop1.jpg); 
+    
+    
+}
+#city
+{
+    opacity: 0.5;
+}
+
+#headerline
+{
+    background: white;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 2px 50px 1px rgba(0,0,0,0.27);
+        
+}
+#menu
+{
+    height: 30px;
+    width: 52px;
+    display: block;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+   /* box-shadow: 0 1.5px 1.5px  rgba(0,0,0,0.27);*/
+    
+}
+#Contact
+{
+   float: right;
+    margin: 12.5px 25px;
+    font-size: 20px;
+    line-height: 14%;
+    font-weight: 100%;
+    padding: 25px 30px;
+    border: solid 2px #DE5336;
+    border-radius: 75px;
+    color: #DE5336;
+    text-decoration: none; 
+    /*box-shadow: 0 1.5px 1.5px  rgba(0,0,0,0.27);*/
+}
+#three
+{
+   padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#logo
+{
+   text-decoration: none;
+    color: white;
+    font-family: Eras ITC;
+   display: block;
+    width: 400px;
+    
+    margin: 100px auto 0;
+    font-size: 50px;
+    border: solid 2px white;
+    padding: 13px 13px;
+     box-shadow: 0 1.5px 1.5px  rgba(0,0,0,0.27); 
+}
+#slogan
+{
+    margin-top: 10px;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    font-family: Gadugi,monospace;
+    font-weight: normal;
+    color: white;
+}
+#portfolio
+{
+    text-decoration: none;
+    padding: 13px 50px;
+    background: white;
+    font-size: 25px;
+    border-radius: 75px;
+    color: #DE5336;
+    font-weight: 100%;
+    /*box-shadow: 0 5px 10px 1px rgba(0,0,0,0.27); */  
+}
+
+#row
+{
+   text-align: center; 
+}
+
+.rowcell
+{
+    width: 200px;
+    height: 200px;
+    border: solid 2px white;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 100px;
+    border-radius: 28px;
+    color: white;
+    font-size: 25px;
+    font-family: Gadugi,monospace;
+    font-weight: normal;
+    line-height: 100px;
+    height: 100px;     
+}
+
+#row:hover,#logo:hover,#menu:hover
+{
+    cursor:default;
+    
+}
+#contact:hover,#portfolio:hover
+{
+   color: #E8401C;
+box-shadow: 0 0 10px  rgba(0,0,0,0.5); 
+    
+}
+#contact:active
+{
+    position: relative;
+    top: 1px;
+}
+#portfolio:active
+{
+    position: relative;
+    bottom: 1px;
+}
